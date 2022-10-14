@@ -1,0 +1,29 @@
+.card {
+    width: 175px;
+    font-size: 12px;
+    padding: 5px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+.card--status {
+    display: flex;
+    align-items: center;
+    
+}
+
+.card--image--star {
+    width: 10px;
+    height: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
